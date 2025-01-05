@@ -178,3 +178,21 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+/*sobrenosotros*/
+@media (min-width: 768px){
+    /*con flexbox
+    .sobre-nosotros{
+        display: flex;
+        gap: 2rem   ;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: 50%;
+    }*/
+    /*con grid*/
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+}
